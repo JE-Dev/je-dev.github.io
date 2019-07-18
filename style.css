@@ -1,0 +1,64 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #FFFFFF; 
+    margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("header.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+.container my-auto{
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr .5fr; /* for left and right sections */
+    grid-gap: 10px;
+    grid-template-areas: 
+            ". left right .";
+    height: 100%;     
+
+}
+
+
+.btn btn-outline-warning{
+		
+		/* position: center; */
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+}
+
+.container
+	{
+		display: flex;
+flex-direction: column;
+
+	}
